@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+}
+
+header {
+    padding: 4rem;
+    background: green;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: .8rem;
+    align-items: center;
+}
+
+ul li:last-child {
+    background-color: black;
+    color: white;
+    padding: .8rem;
+}
+
+/*--------------------------------------------------------------------*/
+
+.container {
+    display: flex;
+    gap: 1rem;
+}
+
+aside, main {
+    border: 1px solid;
+    height: 95vh;
+}
+
+aside {
+    flex-basis: 25%;
+}
+
+main {
+    flex: 1;
+}
