@@ -11,28 +11,28 @@ body {
     height: 100%;
     display: flex;
     font-family: 'Work Sans', sans-serif;
-    font-variant: var(--body-bg-color);
+    background-color: var(--body-bg-color);
 }
 
 h2 {
-    font-variant: var(--title-color);
+    color: var(--title-color);
     margin-top: 100px;
     font-weight: 700;
 }
 
 h3 {
-    font-variant: var(--text-color);
+    color: var(--text-color);
     font-weight: 500;
 }
 
 p {
-    font-variant: var(--text-color);
+    color: var(--form-color);
     font-weight: 400;
     margin: 30px 0px;
 }
 
 a {
-    font-variant: var(--bg-button-color);
+    color: var(--bg-button-color);
     text-decoration: none;
 }
 
@@ -41,7 +41,7 @@ a img {
 }
 
 form label {
-    font-variant: var(--form-color);
+    color: var(--form-color);
 }
 
 .campo {
@@ -54,7 +54,7 @@ form label {
 }
 
 .campo button {
-    font-variant: var(--bg-button-color);
+    background-color: var(--bg-button-color);
     border: none;
     width: 40px;
 }
@@ -75,7 +75,7 @@ form label {
     z-index: 2;
     top: 0px;
     left: 0px;
-    font-variant: var(--body-bg-color);
+    background-color: var(--body-bg-color);
     padding: 30px;
 }
 
