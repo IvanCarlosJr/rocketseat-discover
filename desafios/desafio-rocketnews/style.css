@@ -8,7 +8,7 @@
 
 body {
     margin: 0;
-    height: 100%;
+    height: 100vh;
     display: flex;
     font-family: 'Work Sans', sans-serif;
     background-color: var(--body-bg-color);
@@ -57,6 +57,7 @@ form label {
     background-color: var(--bg-button-color);
     border: none;
     width: 40px;
+    cursor: pointer;
 }
 
 .imagem-fundo img {
@@ -69,14 +70,14 @@ form label {
 
 .conteudo {
     margin: 0px;
-    height: 100vh;
+    height: 100%;
     width: 40%;
     position: relative;
     z-index: 2;
     top: 0px;
     left: 0px;
     background-color: var(--body-bg-color);
-    padding: 30px;
+    padding: 0px 30px;
 }
 
 .conteudo .logo {
