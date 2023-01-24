@@ -38,7 +38,6 @@ ul {
     font-size: 12px;
 }
     
-
 .rocket-image {
     width: 40%;
 }
@@ -53,7 +52,6 @@ ul {
 
 .countdown {
     color: var(--black);
-    font-size: 90px;
-    text-align: left;
-    margin-left: 60px;
+    font-size: 100px;
+    text-align: center
 }
